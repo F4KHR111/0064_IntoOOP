@@ -2,13 +2,13 @@
 using namespace std;
 
 class bangunDatar{
-    //akses modifier
+    // akses modifier
     private:
         float panjang, lebar;
     public:
     float luas;
 
-    void input(){ //methode input persegi panjang
+    void input(){ // methode input persegi panjang
 
         cout << "Masukan Panjangnya = ";
         cin >> panjang;
@@ -28,5 +28,9 @@ class bangunDatar{
 };
 
 int main(){
-    
+    bangunDatar pp; // deklarasi objek pp dari class bangunDatar
+    pp.input();
+    pp.display();
+
+    return 0;
 }
